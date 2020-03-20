@@ -1,3 +1,13 @@
 baseURL = "https://muitapeixe.nunogodinho.com"
 languageCode = "pt-PT"
 title = "Muita peixe"
+theme = "hugo-creative-portfolio-theme"
+
+[params]
+  style = "blue"
+  copyright = "&copy;2020 Nuno Godinho"
+
+  [[params.navlinks]]
+  name = "Home"
+  url = "posts/"
+  home = true
