@@ -1,0 +1,19 @@
+[build]
+  publish = "public"
+  command = "hugo"
+
+[[redirects]]
+  from = "https://muitapeixe-nunogodinho.com.netlify.com/*"
+  to = "https://muitapeixe.nunogodinho.com/:splat"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+    X-XSS-Protection = "1; mode=block"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Strict-Transport-Security = "max-age=15768000; includeSubDomains"
+    Referrer-Policy = "no-referrer"
