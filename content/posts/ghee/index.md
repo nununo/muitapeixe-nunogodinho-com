@@ -4,7 +4,6 @@ date = 2015-12-27T00:00:00Z
 categories = ["preparado"]
 tags = ["*****", "indiano", "frigideira"]
 showonlyimage = true
-recipe = "Ghee"
 recipe_author = "Katie Wells"
 recipe_source = "Wellness Mama"
 recipe_url = "https://wellnessmama.com/24267/make-ghee/"

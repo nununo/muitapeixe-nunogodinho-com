@@ -4,7 +4,6 @@ date = 2016-11-30T00:00:00Z
 categories = ["preparado"]
 tags = ["*****", "indiano", "frigideira", "fogão"]
 showonlyimage = true
-recipe = "Punjabi Masala"
 recipe_author = "Hardev Walia (ex-chef do Tamarind em Lisboa)"
 draft = false
 +++

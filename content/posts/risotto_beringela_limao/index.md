@@ -4,7 +4,7 @@ date = 2016-12-04T00:00:00Z
 categories = ["prato principal"]
 tags = ["****", "copiado", "vegetariano", "forno", "fogão"]
 showonlyimage = true
-recipe = "Lemon and Aubergine Risotto"
+recipe_name = "Lemon and Aubergine Risotto"
 recipe_author = "Yotam Ottolenghi"
 recipe_source = "Pleanty"
 recipe_url = "http://www.amazon.co.uk/gp/product/0091933684/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0091933684&linkCode=as2&tag=muitapeixe-21"

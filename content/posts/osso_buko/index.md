@@ -4,7 +4,6 @@ date = 2016-02-01T00:00:00Z
 categories = ["prato principal"]
 tags = ["*****", "copiado", "panela", "fogão", "carne"]
 showonlyimage = true
-recipe = 'Osso "Buko"'
 recipe_author = "Tim Ferriss"
 recipe_source = "4-hour chef"
 recipe_url = "http://www.amazon.co.uk/4-Hour-Chef-Learning-Anything-Official/dp/1477800077"

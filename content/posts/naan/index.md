@@ -4,7 +4,6 @@ date = 2016-02-02T00:00:00Z
 categories = ["padaria"]
 tags = ["****", "copiado", "frigideira", "fogão"]
 showonlyimage = true
-recipe_name = "Naan"
 recipe_author = "Jeff Hertzberg & Zoë François"
 recipe_source = "The New Artisan Bread in Five Minutes a Day"
 recipe_url = "https://www.amazon.co.uk/Artisan-Bread-Five-Minutes-Revolutionizes/dp/1250018285"

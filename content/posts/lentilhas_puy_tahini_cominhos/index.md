@@ -4,7 +4,7 @@ date = 2015-11-20T00:00:00Z
 categories = ["prato principal"]
 tags = ["*****", "copiado", "frigideira", "vegetariano"]
 showonlyimage = true
-recipe = "Crushed Puy Lentils With Tahini And Cumin"
+recipe_name = "Crushed Puy Lentils With Tahini And Cumin"
 recipe_author = "Yotam Ottolenghi"
 recipe_source = "Plenty More"
 recipe_url = "http://www.amazon.co.uk/gp/product/009195715X/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=009195715X&linkCode=as2&tag=muitapeixe-21"
