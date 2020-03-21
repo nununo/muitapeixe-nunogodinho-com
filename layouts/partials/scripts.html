@@ -1,0 +1,15 @@
+{{- $js_jquery := resources.Get "js/jquery.min.js" -}}
+{{- $js_bootstrap := resources.Get "js/bootstrap.min.js" -}}
+{{- $js_jquery_cookie := resources.Get "js/jquery.cookie.js" -}}
+{{- $js_ekko_lightbox := resources.Get "js/ekko-lightbox.js" -}}
+{{- $js_jquery_scrollto := resources.Get "js/jquery.scrollTo.min.js" -}}
+{{- $js_masonry := resources.Get "js/masonry.pkgd.min.js" -}}
+{{- $js_imagesloaded := resources.Get "js/imagesloaded.pkgd.min.js" -}}
+{{- $js_owl_carousel := resources.Get "js/owl.carousel.min.js" -}}
+{{- $js_front := resources.Get "js/front.js" -}}
+{{ $js := slice $js_jquery $js_bootstrap $js_jquery_cookie $js_ekko_lightbox $js_jquery_scrollto $js_masonry $js_imagesloaded $js_owl_carousel $js_front | resources.Concat "js/concatenated.js" | minify }}
+<script src="{{ $js.Permalink }}"></script>
+
+{{ if .Site.Params.analytics.matomo }}
+  {{ partial "_analytics/matomo.html" . }}
+{{ end }}
