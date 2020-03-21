@@ -44,3 +44,8 @@ p.credit a {
 div.recipe {
   color: #999999;
 }
+
+/* Thumbnail hover: increase transparency */
+.box-masonry:hover .box-masonry-image.with-hover-overlay:before {
+  opacity: 0.5;
+}
