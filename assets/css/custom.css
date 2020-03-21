@@ -1,0 +1,14 @@
+/* Copyright and credit text formatting (because it moved from the sidebar to the main content) */
+.copyright p.credit {
+    text-align: left !important;
+    color: black;
+  }
+  
+  p.credit {
+    color: lightgray;
+    font-size: x-small;
+  }
+  
+  p.credit a {
+    color: lightgray;
+  }
