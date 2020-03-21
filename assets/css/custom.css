@@ -1,14 +1,46 @@
+body {
+  background-color: white;
+}
+
 /* Copyright and credit text formatting (because it moved from the sidebar to the main content) */
 .copyright p.credit {
-    text-align: left !important;
-    color: black;
-  }
+  text-align: left !important;
+  color: black;
+}
   
-  p.credit {
-    color: lightgray;
-    font-size: x-small;
-  }
+p.credit {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: gray;
+  font-size: x-small;
+}
   
-  p.credit a {
-    color: lightgray;
-  }
+p.credit a {
+  color: gray;
+}
+
+/* Grid paddings and margins */
+.masonry-item {
+  padding: 0px;
+}
+
+.box-masonry {
+  margin-bottom: 0px;
+}
+
+.content-column {
+  padding-top: 0px;
+}
+
+.grid {
+  padding-top: 0px;
+}
+
+/* Content color */
+.content-column-content p, .content-column-content li {
+  color: #555555;
+}
+
+div.recipe {
+  color: #999999;
+}

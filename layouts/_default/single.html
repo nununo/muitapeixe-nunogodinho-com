@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>{{ .Title }}</h1>
+
+         <img src="images/thumbnail.jpg" alt="" class="img-responsive"> </a>
+        &nbsp;
+         {{ if isset .Params "recipe_name" }}
+           <div class="recipe">Nome: {{ .Params.recipe_name }}</div>
+         {{ end }}
+         {{ if isset .Params "recipe_source" }}
+           {{ if isset .Params "recipe_url" }}
+             <div class="recipe">Fonte: <a href="{{ .Params.recipe_url }}">{{ .Params.recipe_source }}</div></a>
+           {{ else }}
+             <div class="recipe">Fonte: {{ .Params.recipe_source }}</div>
+           {{ end }}
+         {{ end }}
+         {{ if isset .Params "recipe_author" }}
+           <div class="recipe">Autor: {{ .Params.recipe_author }}</div>
+         {{ end }}
+         &nbsp;
+
+         {{ .Content }}
+         {{ template "_internal/disqus.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
