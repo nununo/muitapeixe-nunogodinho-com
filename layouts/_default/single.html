@@ -16,11 +16,37 @@
          <div class="recipe">Fonte: {{ .Params.recipe_source }}</div>
          {{- end }}
          {{- end }}
-         {{- if isset .Params "recipe_author" }}
+         {{- if isset .Params "recipe_author" -}}
            <div class="recipe">Autor: {{ .Params.recipe_author }}</div>
+         {{- end -}}
+
+         {{- $taxo := "categories" }} <!-- Use the plural form here -->
+         {{- with .Param $taxo }}
+             <div class="recipe">Categories:&nbsp;
+             {{- range $index, $item := . }}
+                 {{- if gt $index 0 }}, {{ end -}}
+                 {{- with $.Site.GetPage (printf "/%s/%s" $taxo $item) -}}
+                     <a href="{{ .Permalink }}">{{ $item }}</a>
+                 {{- end -}}
+             {{- end -}}
+             </div>
+         {{- end }}
+
+         {{- $taxo := "tags" }} <!-- Use the plural form here -->
+         {{- with .Param $taxo }}
+             <div class="recipe">Tags:&nbsp;
+             {{- range $index, $item := . }}
+                 {{- if gt $index 0 }}, {{ end -}}
+                 {{- with $.Site.GetPage (printf "/%s/%s" $taxo $item) -}}
+                     <a href="{{ .Permalink }}">{{ $item }}</a>
+                 {{- end -}}
+             {{- end -}}
+             </div>
          {{- end }}
          &nbsp;
          {{ .Content }}
+         &nbsp;
+         
          {{ template "_internal/disqus.html" . }}
       </div>
     </div>
