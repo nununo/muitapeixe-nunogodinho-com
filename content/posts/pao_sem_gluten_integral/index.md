@@ -2,7 +2,7 @@
 title = "Pão sem glúten 100% integral"
 date = 2015-12-28T00:00:00Z
 categories = ["padaria"]
-tags = ["****", "copiado", "forno", "sem glúten"]
+tags = ["4x", "copiado", "forno", "sem glúten"]
 showonlyimage = true
 recipe_name = "100% Whole-Grain Loaf"
 recipe_author = "Jeff Hertzberg & Zoë François"

@@ -2,7 +2,7 @@
 title = "Borrego sous-vide com redução de balsâmico"
 date = 2019-06-29T00:00:00Z
 categories = ["prato principal"]
-tags = ["*****", "copiado", "carne", "borrego", "sous-vide"]
+tags = ["5x", "copiado", "carne", "borrego", "sous-vide"]
 showonlyimage = true
 recipe_name = "Braised and Glazed Lamb Shank"
 recipe_source = "ChefSteps"

@@ -2,7 +2,7 @@
 title = "Salada de espinafres, parmesão e nozes"
 date = 2016-02-14T00:00:00Z
 categories = ["salada"]
-tags = ["*****", "inventado", "vegetariano"]
+tags = ["5x", "inventado", "vegetariano"]
 showonlyimage = true
 draft = false
 +++

@@ -2,7 +2,7 @@
 title = "Pão rústico de centeio em banetton"
 date = 2016-01-05T00:00:00Z
 categories = ["padaria"]
-tags = ["****", "copiado", "forno"]
+tags = ["4x", "copiado", "forno"]
 showonlyimage = true
 recipe_name = "European Peasant Bread"
 recipe_author = "Jeff Hertzberg & Zoë François"

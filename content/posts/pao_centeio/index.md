@@ -2,7 +2,7 @@
 title = "Pão de centeio"
 date = 2016-03-07T00:00:00Z
 categories = ["padaria"]
-tags = ["****", "copiado", "forno"]
+tags = ["4x", "copiado", "forno"]
 showonlyimage = true
 recipe_name = "European Peasant Bread"
 recipe_author = "Jeff Hertzberg & Zoë François"

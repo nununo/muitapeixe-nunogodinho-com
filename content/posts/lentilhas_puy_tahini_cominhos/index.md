@@ -2,7 +2,7 @@
 title = "Lentilhas Puy com tahini e cominhos"
 date = 2015-11-20T00:00:00Z
 categories = ["prato principal"]
-tags = ["*****", "copiado", "frigideira", "vegetariano"]
+tags = ["5x", "copiado", "frigideira", "vegetariano"]
 showonlyimage = true
 recipe_name = "Crushed Puy Lentils With Tahini And Cumin"
 recipe_author = "Yotam Ottolenghi"

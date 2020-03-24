@@ -2,7 +2,7 @@
 title = "Pão de aveia"
 date = 2016-06-03T00:00:00Z
 categories = ["padaria"]
-tags = ["****", "copiado", "forno"]
+tags = ["4x", "copiado", "forno"]
 showonlyimage = true
 recipe_name = "Oat Flour Bread"
 recipe_author = "Jeff Hertzberg & Zoë François"
