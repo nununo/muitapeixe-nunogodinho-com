@@ -20,9 +20,11 @@
            <div class="recipe">Autor: {{ .Params.recipe_author }}</div>
          {{- end -}}
 
+         <div class="recipe">Data: {{ .PublishDate.Format "2006-01-02" }}</div>
+
          {{- $taxo := "categories" }} <!-- Use the plural form here -->
          {{- with .Param $taxo }}
-             <div class="recipe">Categories:&nbsp;
+             <div class="recipe">Categoria:&nbsp;
              {{- range $index, $item := . }}
                  {{- if gt $index 0 }}, {{ end -}}
                  {{- with $.Site.GetPage (printf "/%s/%s" $taxo $item) -}}
