@@ -36,7 +36,7 @@
 
          {{- $taxo := "tags" }} <!-- Use the plural form here -->
          {{- with .Param $taxo }}
-             <div class="recipe">Tags:&nbsp;
+             <div class="recipe">Etiquetas:&nbsp;
              {{- range $index, $item := . }}
                  {{- if gt $index 0 }}, {{ end -}}
                  {{- with $.Site.GetPage (printf "/%s/%s" $taxo $item) -}}
