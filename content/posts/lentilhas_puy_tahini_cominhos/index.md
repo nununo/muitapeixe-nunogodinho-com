@@ -1,7 +1,7 @@
 +++
 title = "Lentilhas Puy com tahini e cominhos"
 date = 2015-11-20T00:00:00Z
-categories = ["prato principal"]
+categories = ["pratoprincipal"]
 tags = ["5x", "copiado", "frigideira", "vegetariano"]
 showonlyimage = true
 recipe_name = "Crushed Puy Lentils With Tahini And Cumin"

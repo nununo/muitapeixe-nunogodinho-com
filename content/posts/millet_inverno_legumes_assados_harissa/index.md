@@ -1,7 +1,7 @@
 +++
 title = "Millet de Inverno com legumes assados e harissa"
 date = 2015-12-11T00:00:00Z
-categories = ["prato principal"]
+categories = ["pratoprincipal"]
 tags = ["4x", "copiado", "vegetariano"]
 showonlyimage = true
 recipe_name = "The Ultimate Winter Couscous"

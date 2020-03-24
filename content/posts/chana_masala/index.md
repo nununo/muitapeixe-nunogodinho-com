@@ -1,7 +1,7 @@
 +++
 title = "Chana Masala"
 date = 2015-12-30T00:00:00Z
-categories = ["prato principal"]
+categories = ["pratoprincipal"]
 tags = ["5x", "indiano", "frigideira", "fogão"]
 showonlyimage = true
 recipe_author = "Hardev Walia (ex-chef do Tamarind em Lisboa)"

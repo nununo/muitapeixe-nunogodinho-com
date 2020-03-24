@@ -1,7 +1,7 @@
 +++
 title = 'Osso "Buko"'
 date = 2016-02-01T00:00:00Z
-categories = ["prato principal"]
+categories = ["pratoprincipal"]
 tags = ["5x", "copiado", "panela", "fogão", "carne"]
 showonlyimage = true
 recipe_author = "Tim Ferriss"
