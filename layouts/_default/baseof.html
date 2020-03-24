@@ -3,6 +3,7 @@
 <head>{{ partial "head.html" . }}</head>
 <body>
   <div id="all">
+        {{ partial "mobile_nav_toggle.html" . }}
       <div class="container-fluid">
           <div class="row row-offcanvas row-offcanvas-left">
               {{ block "main" . }}
