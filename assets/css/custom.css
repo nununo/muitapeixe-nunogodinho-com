@@ -59,10 +59,17 @@ div.recipe {
 
 h1.small-navbar-heading {
   margin-bottom: 10px;
-  float: none;
-  color: white;
+  float: left;
 }
 
 h1.small-navbar-heading > a {
   color: white;
+}
+
+.small-navbar > p {
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+  float: right;
 }
