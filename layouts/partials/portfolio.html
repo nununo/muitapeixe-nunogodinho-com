@@ -4,13 +4,21 @@
           {{ range .Data.Pages }}
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 masonry-item">
                   <div class="box-masonry">
-                      <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay">
-                          <img src="{{ with .File }}{{ .ContentBaseName }}{{ end }}/images/thumbnail.jpg" alt="" class="img-responsive"> </a>
-                      </a>
-                      <div class="box-masonry-hover-text-header">
-                          <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                          <div>{{ .Date.Format "2006-01-02" }}</div>
-                      </div>
+                    {{- if eq .IsPage true }}
+                    <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <img src="/{{ .File.Dir }}/images/thumbnail.jpg" alt="" class="img-responsive"/>
+                    </a>
+                    {{- end }}
+                    {{- if eq .IsPage true }}
+                    <div class="box-masonry-hover-text-header">
+                    {{- else }}
+                    <div class="box-masonry-text">
+                    {{- end }}
+                      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                      {{- if eq .IsPage true }}
+                      <div>{{ .Date.Format "2006-01-02" }}</div>
+                      {{- end }}
+                    </div>
                   </div>
               </div>
           {{ end }}
