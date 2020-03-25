@@ -45,11 +45,6 @@ div.recipe {
   color: #999999;
 }
 
-/* Thumbnail hover: increase transparency */
-.box-masonry:hover .box-masonry-image.with-hover-overlay:before {
-  opacity: 0.5;
-}
-
 .small-navbar {
   margin-bottom: 0px;
   padding-left: 10px;
