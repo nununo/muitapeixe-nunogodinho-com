@@ -2,7 +2,7 @@
 title = "Pão preguiçoso trigo semi-integral"
 date = 2015-11-20T00:00:00Z
 categories = ["padaria"]
-tags = ["****", "copiado", "forno"]
+tags = ["4x", "copiado", "forno"]
 showonlyimage = true
 recipe_name = "Light Whole Wheat Bread"
 recipe_author = "Jeff Hertzberg & Zoë François"

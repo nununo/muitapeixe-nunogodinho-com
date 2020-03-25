@@ -49,3 +49,27 @@ div.recipe {
 .box-masonry:hover .box-masonry-image.with-hover-overlay:before {
   opacity: 0.5;
 }
+
+.small-navbar {
+  margin-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+}
+
+h1.small-navbar-heading {
+  margin-bottom: 10px;
+  float: left;
+}
+
+h1.small-navbar-heading > a {
+  color: white;
+}
+
+.small-navbar > p {
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+  float: right;
+}

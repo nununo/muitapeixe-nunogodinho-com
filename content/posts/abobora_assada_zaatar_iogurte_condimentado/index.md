@@ -2,7 +2,7 @@
 title = "Abóbora assada com za'atar e iogurte condimentado"
 date = 2015-11-20T00:00:00Z
 categories = ["acompanhamento"]
-tags = ["*****", "copiado", "forno", "vegetariano"]
+tags = ["copiado", "forno", "vegetariano", "5x"]
 showonlyimage = true
 recipe_name = "Za’atar Roasted Squash with Spiced Yogurt & Pickled Chillies"
 recipe_author = "Sabrina Ghayour"

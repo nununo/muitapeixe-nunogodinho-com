@@ -1,8 +1,8 @@
 +++
 title = "Almôndegas de frango ao vapor"
 date = 2017-10-15T00:00:00Z
-categories = ["prato principal"]
-tags = ["*****", "copiado", "vapor", "frango", "carne"]
+categories = ["pratoprincipal"]
+tags = ["5x", "copiado", "vapor", "frango", "carne"]
 showonlyimage = true
 recipe_author = "Jez Felwick"
 recipe_source = "The Bowler’s Meatball Cookbook"

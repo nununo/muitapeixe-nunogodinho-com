@@ -2,7 +2,7 @@
 title = "Couves de Bruxelas assadas com pomelo e anis"
 date = 2016-01-29T00:00:00Z
 categories = ["salada"]
-tags = ["*****", "copiado", "panela", "forno", "fogão", "vegetariano"]
+tags = ["5x", "copiado", "panela", "forno", "fogão", "vegetariano"]
 showonlyimage = true
 recipe_name = "Roasted Brussels Sprouts With Pomelo and Star Anise"
 recipe_author = "Yotam Ottolenghi"

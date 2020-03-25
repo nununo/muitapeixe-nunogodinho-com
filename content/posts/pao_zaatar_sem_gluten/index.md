@@ -2,7 +2,7 @@
 title = "Pão de za'atar sem glúten"
 date = 2016-02-14T00:00:00Z
 categories = ["padaria"]
-tags = ["****", "copiado", "forno", "sem glúten"]
+tags = ["4x", "copiado", "forno", "sem glúten"]
 showonlyimage = true
 recipe_name = "Gluten-free Za’atar Flatbread"
 recipe_author = "Jeff Hertzberg & Zoë François"

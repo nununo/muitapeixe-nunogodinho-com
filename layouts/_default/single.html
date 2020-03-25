@@ -4,25 +4,51 @@
     <div class="col-lg-8">
       <div class="content-column-content">
          <h1>{{ .Title }}</h1>
-
-         <img src="images/thumbnail.jpg" alt="" class="img-responsive"> </a>
-        &nbsp;
-         {{ if isset .Params "recipe_name" }}
-           <div class="recipe">Nome: {{ .Params.recipe_name }}</div>
-         {{ end }}
-         {{ if isset .Params "recipe_source" }}
-           {{ if isset .Params "recipe_url" }}
-             <div class="recipe">Fonte: <a href="{{ .Params.recipe_url }}">{{ .Params.recipe_source }}</div></a>
-           {{ else }}
-             <div class="recipe">Fonte: {{ .Params.recipe_source }}</div>
-           {{ end }}
-         {{ end }}
-         {{ if isset .Params "recipe_author" }}
-           <div class="recipe">Autor: {{ .Params.recipe_author }}</div>
-         {{ end }}
+         <p><img src="images/thumbnail.jpg" alt=""/></p>
          &nbsp;
+         {{- if isset .Params "recipe_name" }}
+         <div class="recipe">Nome: {{ .Params.recipe_name }}</div>
+         {{- end }}
+         {{- if isset .Params "recipe_source" }}
+         {{- if isset .Params "recipe_url" }}
+         <div class="recipe">Fonte: <a href="{{ .Params.recipe_url }}">{{ .Params.recipe_source }}</div></a>
+         {{ else }}
+         <div class="recipe">Fonte: {{ .Params.recipe_source }}</div>
+         {{- end }}
+         {{- end }}
+         {{- if isset .Params "recipe_author" -}}
+           <div class="recipe">Autor: {{ .Params.recipe_author }}</div>
+         {{- end -}}
 
+         <div class="recipe">Data: {{ .PublishDate.Format "2006-01-02" }}</div>
+
+         {{- $taxo := "categories" }} <!-- Use the plural form here -->
+         {{- with .Param $taxo }}
+             <div class="recipe">Categoria:&nbsp;
+             {{- range $index, $item := . }}
+                 {{- if gt $index 0 }}, {{ end -}}
+                 {{- with $.Site.GetPage (printf "/%s/%s" $taxo $item) -}}
+                     <a href="{{ .Permalink }}">{{ $item }}</a>
+                 {{- end -}}
+             {{- end -}}
+             </div>
+         {{- end }}
+
+         {{- $taxo := "tags" }} <!-- Use the plural form here -->
+         {{- with .Param $taxo }}
+             <div class="recipe">Etiquetas:&nbsp;
+             {{- range $index, $item := . }}
+                 {{- if gt $index 0 }}, {{ end -}}
+                 {{- with $.Site.GetPage (printf "/%s/%s" $taxo $item) -}}
+                     <a href="{{ .Permalink }}">{{ $item }}</a>
+                 {{- end -}}
+             {{- end -}}
+             </div>
+         {{- end }}
+         &nbsp;
          {{ .Content }}
+         &nbsp;
+         
          {{ template "_internal/disqus.html" . }}
       </div>
     </div>

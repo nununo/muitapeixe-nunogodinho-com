@@ -2,7 +2,7 @@
 title = "Naan"
 date = 2016-02-02T00:00:00Z
 categories = ["padaria"]
-tags = ["****", "copiado", "frigideira", "fogão"]
+tags = ["4x", "copiado", "frigideira", "fogão"]
 showonlyimage = true
 recipe_author = "Jeff Hertzberg & Zoë François"
 recipe_source = "The New Artisan Bread in Five Minutes a Day"

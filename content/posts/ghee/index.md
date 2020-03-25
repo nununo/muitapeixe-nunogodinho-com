@@ -2,7 +2,7 @@
 title = "Ghee"
 date = 2015-12-27T00:00:00Z
 categories = ["preparado"]
-tags = ["*****", "indiano", "frigideira"]
+tags = ["5x", "indiano", "frigideira"]
 showonlyimage = true
 recipe_author = "Katie Wells"
 recipe_source = "Wellness Mama"
