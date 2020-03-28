@@ -2,7 +2,7 @@
 title = "Couve frita no micro-ondas"
 date = 2019-02-01T00:00:00Z
 categories = ["acompanhamento", "snack"]
-tags = ["5x", "copiado", "vegetariano", "micro-ondas"]
+tags = ["nuno", "vegetariano", "micro-ondas"]
 showonlyimage = true
 recipe_name = "Microwave kale chips"
 recipe_author = "Nathan Myhrvold"

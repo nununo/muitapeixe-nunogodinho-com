@@ -2,7 +2,7 @@
 title = "Arroz com limão e folhas de caril"
 date = 2019-02-04T00:00:00Z
 categories = ["acompanhamento"]
-tags = ["5x", "copiado", "forno", "arroz", "vegetariano"]
+tags = ["nuno", "forno", "arroz", "vegetariano"]
 showonlyimage = true
 recipe_author = "Yotam Ottolenghi"
 recipe_source = "Plenty More"

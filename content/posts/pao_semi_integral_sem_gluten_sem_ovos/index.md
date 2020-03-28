@@ -2,7 +2,7 @@
 title = "Pão semi-integral sem glúten e sem ovos"
 date = 2016-02-09T00:00:00Z
 categories = ["padaria"]
-tags = ["5x", "copiado", "forno", "sem glúten"]
+tags = ["nuno", "forno", "semgluten"]
 showonlyimage = true
 recipe_name = "Whole-Grain Gluten-Free Loaf (No Eggs, 50% Whole Grains)"
 recipe_author = "Jeff Hertzberg & Zoë François"

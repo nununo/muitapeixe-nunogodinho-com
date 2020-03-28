@@ -2,7 +2,7 @@
 title = "Broa de milho"
 date = 2016-03-01T00:00:00Z
 categories = ["padaria"]
-tags = ["4x", "copiado", "forno"]
+tags = ["nuno", "forno"]
 showonlyimage = true
 recipe_name = "Broa (Portuguese Cornbread)"
 recipe_author = "Jeff Hertzberg & Zoë François"

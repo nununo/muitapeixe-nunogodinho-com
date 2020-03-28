@@ -2,7 +2,7 @@
 title = "Massa-mãe"
 date = 2019-12-22T00:00:00Z
 categories = ["preparado"]
-tags = ["fermentado"]
+tags = ["nuno", "fermentado"]
 showonlyimage = true
 recipe_author = "Paulo Sebastião"
 draft = false

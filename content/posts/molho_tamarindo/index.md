@@ -2,7 +2,7 @@
 title = "Molho de tamarindo"
 date = 2015-12-28T00:00:00Z
 categories = ["preparado"]
-tags = ["4x", "indiano", "panela", "fogão"]
+tags = ["nuno", "indiano", "panela", "fogão"]
 showonlyimage = true
 recipe_name = "Sweet tamarind chutney"
 recipe_author = "Gordon Ramsey"

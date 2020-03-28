@@ -2,7 +2,7 @@
 title = "Couves de Bruxelas assadas com laranja e coentros"
 date = 2015-12-11T00:00:00Z
 categories = ["salada"]
-tags = ["4x", "copiado", "vegetariano"]
+tags = ["nuno", "vegetariano"]
 showonlyimage = true
 recipe_name = "Roasted Brussels Sprouts With Pomelo and Star Anise"
 recipe_author = "Yotam Ottolenghi"

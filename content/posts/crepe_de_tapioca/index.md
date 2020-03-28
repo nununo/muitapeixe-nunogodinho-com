@@ -2,7 +2,7 @@
 title = "Crepe de tapioca"
 date = 2016-04-11T00:00:00Z
 categories = ["snack"]
-tags = ["5x", "aprendido", "vegetariano"]
+tags = ["nuno", "aprendido", "vegetariano"]
 showonlyimage = true
 draft = false
 +++

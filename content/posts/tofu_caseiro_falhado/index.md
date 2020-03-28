@@ -2,7 +2,7 @@
 title = "Tofu caseiro falhado"
 date = 2019-05-04T00:00:00Z
 categories = ["preparado"]
-tags = []
+tags = ["nuno"]
 showonlyimage = true
 recipe_author = "William Shurtleff & Akiko Aoyagi"
 recipe_source = "The Book Of Tofu"
