@@ -2,7 +2,7 @@
 title = "Pão de trigo 75% integral de fermentação lenta"
 date = 2020-03-16T00:00:00Z
 categories = ["padaria"]
-tags = ["5x", "forno"]
+tags = ["nuno", "forno"]
 showonlyimage = true
 recipe_name = "The Saturday 75% Whole Wheat Bread"
 recipe_author = "Ken Forkish"

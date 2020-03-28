@@ -2,7 +2,7 @@
 title = "Risotto de beringela e limão"
 date = 2016-12-04T00:00:00Z
 categories = ["pratoprincipal"]
-tags = ["4x", "copiado", "vegetariano", "forno", "fogão"]
+tags = ["nuno", "vegetariano", "forno", "fogão"]
 showonlyimage = true
 recipe_name = "Lemon and Aubergine Risotto"
 recipe_author = "Yotam Ottolenghi"

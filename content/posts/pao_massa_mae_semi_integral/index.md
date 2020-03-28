@@ -2,7 +2,7 @@
 title = "Pão com massa-mãe de trigo semi-integral"
 date = 2019-12-15T00:00:00Z
 categories = ["padaria"]
-tags = ["5x", "copiado", "forno"]
+tags = ["nuno", "forno"]
 showonlyimage = true
 recipe_name = "Pain de Campagne"
 recipe_author = "Ken Forkish"

@@ -2,7 +2,7 @@
 title = "Bife de couve-flor com puré de couve-flor"
 date = 2016-05-28T00:00:00Z
 categories = ["pratoprincipal"]
-tags = ["5x", "copiado", "forno", "frigideira", "vegetariano"]
+tags = ["nuno", "forno", "frigideira", "vegetariano"]
 showonlyimage = true
 recipe_name = "Cauliflower Steaks with Cauliflower Purée"
 recipe_author = "Dan Barber"

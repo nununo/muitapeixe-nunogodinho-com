@@ -2,7 +2,7 @@
 title = "Chucrute"
 date = 2019-12-04T00:00:00Z
 categories = ["preparado"]
-tags = ["fermentado", "vegetariano"]
+tags = ["nuno", "fermentado", "vegetariano"]
 showonlyimage = true
 recipe_name = "Sauerkraut"
 recipe_author = "Sandor Katz"

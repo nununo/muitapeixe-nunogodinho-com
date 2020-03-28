@@ -2,7 +2,7 @@
 title = "Pão de za'atar"
 date = 2016-02-14T00:00:00Z
 categories = ["padaria"]
-tags = ["5x", "copiado", "forno"]
+tags = ["nuno", "forno"]
 showonlyimage = true
 recipe_name = "Za'atar flatbread"
 recipe_author = "Jeff Hertzberg & Zoë François"

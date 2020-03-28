@@ -2,7 +2,7 @@
 title = "Pão integral leve"
 date = 2017-01-07T00:00:00Z
 categories = ["padaria"]
-tags = ["4x", "copiado", "forno"]
+tags = ["nuno", "forno"]
 showonlyimage = true
 recipe_name = "Light Whole Wheat Bread"
 recipe_author = "Jeff Hertzberg & Zoë François"
