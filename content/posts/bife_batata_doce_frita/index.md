@@ -1,12 +1,12 @@
 +++
-title = "Naco de vaca com batatas doces fritas"
+title = "Naco de vaca com batata doce frita"
 date = 2015-10-14T00:00:00Z
 categories = ["pratoprincipal"]
-tags = ["*****", "inventado", "carne", "vaca"]
+tags = ["filipa", "carne", "vaca", "inventado"]
 showonlyimage = true
-draft = true
+draft = false
 +++
-TODO
+Bife de vaca braseado em azeite, sal, louro, alho e sésamo.
 <!--more-->
 
-TODO
+A batata doce frita palha é especial.
