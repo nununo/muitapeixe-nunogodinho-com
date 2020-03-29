@@ -2,16 +2,14 @@
 title = "Bolo de cenoura, pistáchio e amêndoa"
 date = 2019-04-23T00:00:00Z
 categories = ["sobremesa"]
-tags = ["*****", "copiado", "vegetariano"]
+tags = ["filipa", "vegetariano"]
 showonlyimage = true
 recipe_name = "Spiced Carrot, Pistachio & Almond Cake with Rosewater Cream"
 recipe_author = "Sabrina Ghayour"
 recipe_source = "Persiana"
 recipe_url = "http://www.amazon.co.uk/Persiana-Recipes-Middle-East-Beyond/dp/184533910X"
-draft = true
+draft = false
 +++
-TODO
-<!--more-->
 
 TODO
 
