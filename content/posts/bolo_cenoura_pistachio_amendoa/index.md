@@ -11,7 +11,7 @@ recipe_url = "http://www.amazon.co.uk/Persiana-Recipes-Middle-East-Beyond/dp/184
 draft = false
 +++
 
-TODO
+O bolo de pistácio é muito bom e original. Aliás, como tudo neste livro.
 
 ![Bom bolo][1]
 
