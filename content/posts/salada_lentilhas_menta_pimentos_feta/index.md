@@ -12,4 +12,3 @@ draft = false
 +++
 
 Mais um prato de lentilhas que não é apenas mais um prato de lentilhas.
-
