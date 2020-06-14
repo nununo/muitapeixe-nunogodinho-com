@@ -1,10 +1,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>{{ .Site.Title }} - {{ .Title }}</title>
-{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
-<meta name="googlebot" content="noindex">
+{{ with .Site.Params.description }}<meta name="description" content="{{ . }}"/>{{ end }}
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex"/>
+<meta name="googlebot" content="noindex"/>
+<meta name="bingbot" content="noindex" />
 
 {{- $css_bootstrap := resources.Get "css/bootstrap.min.css" -}}
 {{- $css_font_awsome := resources.Get "css/font-awesome.min.css" -}}
