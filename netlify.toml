@@ -17,3 +17,4 @@
     X-Content-Type-Options = "nosniff"
     Strict-Transport-Security = "max-age=15768000; includeSubDomains"
     Referrer-Policy = "no-referrer"
+    Content-Security-Policy = "default-src 'self'; form-action 'none'; frame-ancestors 'none'; script-src 'self' 'unsafe-eval';"
