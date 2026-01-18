@@ -1,6 +1,16 @@
 [build]
+  command = "hugo --gc --minify"
   publish = "public"
-  command = "hugo"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.154.3"
+
+[context.production.environment]
+  HUGO_ENV = "production"
+  HUGO_VERSION = "0.154.3"
+
+[dev]
+  framework = "hugo"
 
 [[redirects]]
   from = "https://muitapeixe-nunogodinho.com.netlify.com/*"
@@ -18,3 +28,26 @@
     Strict-Transport-Security = "max-age=15768000; includeSubDomains"
     Referrer-Policy = "no-referrer"
     Content-Security-Policy = "default-src 'self'; form-action 'none'; frame-ancestors 'none'; script-src 'self' 'unsafe-eval';"
+
+#[[plugins]]
+  #package = "@netlify/plugin-sitemap"
+
+#[[plugins]]
+  #package = "netlify-plugin-submit-sitemap"
+  #pinned_version = "0.4.0"
+
+#[[plugins]]
+  #package = "netlify-plugin-checklinks"
+
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
+
+[plugins.inputs]
+  debug = false
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+  pinned_version = "5.0.0"
+
+[plugins.inputs]
+    output_path = "reports/lighthouse.html"
