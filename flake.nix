@@ -13,7 +13,6 @@
       in {
         devShell = pkgs.mkShell {
           nativeBuildInputs = [
-            pkgs.hugo
             pkgs.netlify-cli
             pkgs.pre-commit
           ];
